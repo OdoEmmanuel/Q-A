@@ -1,5 +1,6 @@
 <?php
 
+use App\Question;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -17,12 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/products', 'ProductController@index');
-Route::get('/products', 'ProductController@store');
+
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('questions', 'QuestionsController');
+Route::resource('questions', 'QuestionsController')->except('show');
+Route::get('/questions/{slug}', 'QuestionsController@show')->name('questions.show');
