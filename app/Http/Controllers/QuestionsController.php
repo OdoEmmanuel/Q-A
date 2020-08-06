@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AskQuestionRequest;
 use App\Question;
-use Gate;
+// use Gate;
  //use Illuminate\Auth\Access\Gate;
 //use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;

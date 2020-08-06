@@ -50,4 +50,19 @@ class User extends Authenticatable
      return '#';
     }
 
+    public function answers(){
+
+        return $this->hasMany(Answer::class);
+    }
+
+     public function getAvatarAttribute()
+    {
+        # code...
+
+        $email = $this->email;;
+        $size = 32;
+
+        return $grav_url = "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?&s=" . $size;
+    }
+
 }

@@ -23,7 +23,7 @@
                                 <strong>{{ $question->votes }}</strong>{{ Illuminate\Support\Str::plural('vote', $question->votes) }}
                                 </div>
                                 <div class="status {{ $question->status }}">
-                                    <strong>{{ $question->answers }}</strong>{{ Illuminate\Support\Str::plural('answers', $question->answers) }}
+                                <strong>{{ $question->answers_count }}</strong>{{ Illuminate\Support\Str::plural('answers', $question->answers_count) }}
                                 </div>&nbsp; &nbsp;
                                 <div class="view">
                                     <strong>{{ $question->views}}</strong> {{Illuminate\Support\Str::plural('views',$question->views) }}
