@@ -54423,19 +54423,19 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_fontawesome_free__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-free */ "./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js");
 /* harmony import */ var _fortawesome_fontawesome_free__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fortawesome_fontawesome_free_solid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid */ "./node_modules/@fortawesome/fontawesome-free-solid/index.es.js");
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faCaretDown */ "./node_modules/@fortawesome/fontawesome-free-solid/faCaretDown.js");
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faStar */ "./node_modules/@fortawesome/fontawesome-free-solid/faStar.js");
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faCheck */ "./node_modules/@fortawesome/fontawesome-free-solid/faCheck.js");
-/* harmony import */ var _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _fortawesome_fontawesome_free_solid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid */ "./node_modules/@fortawesome/fontawesome-free-solid/index.es.js");
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faCaretDown */ "./node_modules/@fortawesome/fontawesome-free-solid/faCaretDown.js");
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faStar */ "./node_modules/@fortawesome/fontawesome-free-solid/faStar.js");
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/fontawesome-free-solid/faCheck */ "./node_modules/@fortawesome/fontawesome-free-solid/faCheck.js");
+/* harmony import */ var _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
 
 
-_fortawesome_fontawesome_free__WEBPACK_IMPORTED_MODULE_0___default.a.library.add([_fortawesome_fontawesome_free_solid__WEBPACK_IMPORTED_MODULE_2__["default"], _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_3___default.a, _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_5___default.a, _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_4___default.a]);
+_fortawesome_fontawesome_free__WEBPACK_IMPORTED_MODULE_0___default.a.library.add([_fortawesome_fontawesome_free_solid__WEBPACK_IMPORTED_MODULE_1__["default"], _fortawesome_fontawesome_free_solid_faCaretDown__WEBPACK_IMPORTED_MODULE_2___default.a, _fortawesome_fontawesome_free_solid_faCheck__WEBPACK_IMPORTED_MODULE_4___default.a, _fortawesome_fontawesome_free_solid_faStar__WEBPACK_IMPORTED_MODULE_3___default.a]);
 
 /***/ }),
 
