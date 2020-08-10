@@ -57,4 +57,25 @@ class Question extends Model
         $this->save();
     }
 
+    public function favourites()
+    {
+        # code...
+        return $this->belongsToMany(User::class, 'favourites')->withTimestamps();
+    }
+
+    public function isFavourited()
+    {
+        # code...
+        return $this->favourites()->where('user_id', auth()->id)->count() > 0;
+    }
+    public function getIsFovouritedAttribute()
+    {
+        # code...
+        return $this->isFavourited();
+    }
+    public function getFovouritesCountAttribute()
+    {
+        # code...
+        return $this->favourites->count();
+    }
 }
