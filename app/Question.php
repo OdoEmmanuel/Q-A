@@ -66,7 +66,7 @@ class Question extends Model
     public function isFavourited()
     {
         # code...
-        return $this->favourites()->where('user_id', auth()->id)->count() > 0;
+        return $this->favourites->where('user_id', auth()->id())->count() > 0;
     }
     public function getIsFovouritedAttribute()
     {
@@ -76,6 +76,6 @@ class Question extends Model
     public function getFovouritesCountAttribute()
     {
         # code...
-        return $this->favourites->count();
+         return $this->favourites->count();
     }
 }
