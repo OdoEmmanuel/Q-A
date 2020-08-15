@@ -71,4 +71,18 @@ class Answer extends Model
         # code...
         return $this->morphTomany(User::class, 'votable');
     }
+
+
+    public function upVotes()
+    {
+        # code...
+        return $this->votes()->wherePivot('vote', 1);
+    }
+
+    public function downVotes()
+    {
+        # code...
+        return $this->votes()->wherePivot('vote', -1);
+    }
+    
 }

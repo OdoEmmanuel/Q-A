@@ -96,4 +96,6 @@ class Question extends Model
         # code...
         return $this->votes()->wherePivot('vote', -1);
     }
+
+    
 }
