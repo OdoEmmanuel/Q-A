@@ -19,7 +19,7 @@
                                         <i class="fas fa-caret-down fa-3x"></i>
 
                                     </a>
-                                    @can('accept', $answer)
+                                    @if($answer)
                                     <a title="Mark this answer as best answer"
                                      class="{{ $answer->status }} mt-2" onclick="event.preventDefault(); document.getElementById('accept-answer-{{ $answer->id }}').submit()">
                                         <i class="fas fa-check fa-2x"></i>

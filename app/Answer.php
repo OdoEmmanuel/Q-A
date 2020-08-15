@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use Gate;
 class Answer extends Model
 {
     //
@@ -66,4 +66,9 @@ class Answer extends Model
         return $this->id == $this->question->best_answer_id;
     }
 
+    public function votes()
+    {
+        # code...
+        return $this->morphTomany(User::class, 'votable');
+    }
 }

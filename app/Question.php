@@ -78,4 +78,22 @@ class Question extends Model
         # code...
          return $this->favourites->count();
     }
+
+    public function votes()
+    {
+        # code...
+        return $this->morphToMany(User::class, 'votable');
+    }
+
+    public function upVotes()
+    {
+        # code...
+        return $this->votes()->wherePivot('vote', 1);
+    }
+
+    public function downVotes()
+    {
+        # code...
+        return $this->votes()->wherePivot('vote', -1);
+    }
 }
