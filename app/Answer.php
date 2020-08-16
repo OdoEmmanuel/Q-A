@@ -8,6 +8,8 @@ class Answer extends Model
 {
     //
 
+    use  VotableTrait;
+
     protected $fillable = ['body', 'user_id', 'question_id'];
 
     public function question(){
@@ -66,23 +68,6 @@ class Answer extends Model
         return $this->id == $this->question->best_answer_id;
     }
 
-    public function votes()
-    {
-        # code...
-        return $this->morphTomany(User::class, 'votable');
-    }
 
 
-    public function upVotes()
-    {
-        # code...
-        return $this->votes()->wherePivot('vote', 1);
-    }
-
-    public function downVotes()
-    {
-        # code...
-        return $this->votes()->wherePivot('vote', -1);
-    }
-    
 }
